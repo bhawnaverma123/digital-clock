@@ -16,7 +16,7 @@ const DigitalClock = () => {
 
   return (
     <div className="clock-container">
-      <h1 className="clock-heading" >Current Time </h1>
+      <h1 className="clock-heading">Current Time</h1>
       <div className="clock">{formattedTime}</div>
     </div>
   );
