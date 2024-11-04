@@ -1,23 +1,38 @@
 .clock-container {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
-    background-color: #86A7FC; /* Dark background */
-    color: #003285; /* Light blue color */
-    font-family: 'Arial', sans-serif; /* Font family */
+    height: 100vh; 
+    background-image: url('digitalclockbackgr.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #61dafb; 
+    font-family: 'Arial', sans-serif; 
+  }
+  
+  .clock-heading {
+    margin-bottom: 20px; 
+    color: #61dafb; 
   }
   
   .clock {
-    font-size: 7rem; 
-    text-shadow: 2px 2px 4px rgba(166, 77, 121, 0.6); /* Subtle shadow */
-    border: 2px solid #003285; /* Light blue border */
-    padding: 20px; /* Padding around the text */
-    border-radius: 100%; /* Rounded corners */
-    background-color: rgba(166, 77, 121, 0.1); /* Slightly transparent background */
-    margin-top: 50px; /* Extra space above the clock */
+    font-size: 2rem; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    border: 2px solid #61dafb; 
+    padding: 20px; 
+    border-radius: 50%; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 200px; 
+    height: 200px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    transition: transform 0.3s; 
   }
-
-
+  
+  .clock:hover {
+    transform: scale(1.1); 
+    border-color: #21a1f1; 
+  }
   
